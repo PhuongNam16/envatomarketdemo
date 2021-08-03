@@ -1,0 +1,117 @@
+.wrapper{
+    overflow: hidden;
+    
+}
+.preview_banner_area{
+    overflow: hidden;
+    padding: 75px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.preview_banner_area .animated-img{
+    position: absolute;
+    right: -390px;
+    top : 0;
+}
+.preview-banner-area .animated-img > div{
+    transform: translateX(0) translateY(0);
+}
+.preview-banner-area .animated-img > div {
+    transform: translateX(200px) translateY(-150px);
+    transition: all 2s ease-in-out;}
+
+.animated-img img{
+    width: 100%; height:auto;
+}
+.preview_banner_area .container{
+   max-width: 1200px;
+   min-width: 1140px;
+   position: relative;
+}
+.preview_banner_area .row{
+    flex-wrap: wrap;
+    
+}
+.logo-area {
+    margin-bottom: 110px;
+}
+.intro {
+    text-align: left;
+}
+.preview_banner_area .preview-title{
+    text-align: left;
+    margin-bottom: 0;
+}
+.fixed-text{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.fixed-text2 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    /* text-align: left; */
+}
+.preview_banner_area p {
+    color: #fff;
+    width: 65%;
+    margin-bottom: 50px;
+
+}
+p{
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+.preview_banner_area li {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.inline {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.ghost-btn {
+    padding: 10px 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fffefe;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.ghost-btn:hover {
+    color: #000;
+    box-shadow: none;
+    background-color: #fff;
+}
+.buy-btn {
+    padding: 10px 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 5px;
+    color: #000000;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.buy-btn:hover {
+    color: #fffefe;
+    box-shadow: none;
+    background-color: transparent;
+}

@@ -1,0 +1,14 @@
+.footer-area {
+    background-image: url(https://www.radiustheme.com/demo/html/digeco/img/footer.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0 65px;
+}
+.footer-area .footer-logo {
+    display: inline-block;
+}
+.footer-area p {
+    color: #fff;
+}

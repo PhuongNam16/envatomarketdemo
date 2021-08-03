@@ -1,0 +1,43 @@
+.header{
+    font-size: 12px;
+    height: 54px;
+    background-color: #262626;
+    line-height: 54px;
+    margin-bottom: 1px;
+    position : fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+.header_logo_envato{
+    height: 17px;
+    width: auto;
+    width: 152px;
+    height: 28px;
+    display: inline-block;
+    top:10px;
+    position: absolute;
+
+}
+.header_logo{
+    float: left;
+    padding: 0 20px;
+}
+.actions{
+    float : right;
+    margin-right: 20px;
+
+}
+.header-buy-now{
+    color : #fff;
+    font-size: 14px;
+    background-color: #82b440;
+    box-shadow: 0 2px 0 #6f9a37;
+    font-size: 14px;
+    padding: 7px 20px;
+    line-height: 1.5;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}

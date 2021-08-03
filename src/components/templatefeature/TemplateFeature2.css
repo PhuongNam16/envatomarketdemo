@@ -1,0 +1,21 @@
+.template-feature-2 {
+    padding: 110px 0;
+}
+.template-feature-2 .row{
+    display: flex;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.template-feature-2 .content-box-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.col-lg-6{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    position: relative;
+}
